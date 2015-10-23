@@ -1,5 +1,10 @@
 Revision history for Acme-CPANLists-Test
 
+0.02    2015-10-23 (PERLANCAR)
+
+        - Add some properties, adjust to Acme::CPANLists specification v0.9.0.
+
+
 0.01    2015-10-22 (PERLANCAR)
 
         - First release.

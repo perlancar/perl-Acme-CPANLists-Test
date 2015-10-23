@@ -9,7 +9,7 @@ our @Module_Lists = (
         summary => 'Test list',
         entries => [
             {module=>'Foo::Bar', summary=>'bar', related_modules=>['Foo::Qux']},
-            {module=>'Foo::Baz', summary=>'baz', alternate_modules=>['Foo::Quux', 'Foo::Corge']},},
+            {module=>'Foo::Baz', summary=>'baz', alternate_modules=>['Foo::Quux', 'Foo::Corge']},
         ],
     },
 );
