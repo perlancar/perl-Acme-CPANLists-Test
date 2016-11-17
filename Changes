@@ -1,4 +1,9 @@
-Revision history for Acme-CPANLists-Test
+Revision history for Acme-CPANLists-PERLANCAR-Test
+
+0.04    2016-11-17 (PERLANCAR) (unreleased)
+
+	- Rename dist from Acme-CPANLists-Test to Acme-CPANLists-PERLANCAR-Test.
+
 
 0.03    2015-10-23 (PERLANCAR)
 

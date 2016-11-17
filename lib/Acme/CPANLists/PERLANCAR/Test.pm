@@ -1,4 +1,4 @@
-package Acme::CPANLists::Test;
+package Acme::CPANLists::PERLANCAR::Test;
 
 # DATE
 # VERSION
@@ -10,6 +10,14 @@ our @Module_Lists = (
         entries => [
             {module=>'Foo::Bar', summary=>'bar', related_modules=>['Foo::Qux']},
             {module=>'Foo::Baz', summary=>'baz', alternate_modules=>['Foo::Quux', 'Foo::Corge']},
+        ],
+    },
+    {
+        summary => 'Test list 2',
+        entries => [
+            {module=>'File::Slurp'},
+            {module=>'File::Slurp::Tiny'},
+            {module=>'File::Slurper'},
         ],
     },
 );
