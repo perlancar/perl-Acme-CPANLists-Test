@@ -15,9 +15,15 @@ our @Module_Lists = (
     {
         summary => 'Test list 2',
         entries => [
-            {module=>'File::Slurp'},
-            {module=>'File::Slurp::Tiny'},
-            {module=>'File::Slurper'},
+            {module=>'File::Slurp', rating=>5},
+            {module=>'File::Slurp::Tiny', rating=>6},
+            {module=>'File::Slurper', rating=>8},
+        ],
+    },
+    {
+        summary => 'Test list 3',
+        entries => [
+            {module=>'File::Slurper', rating=>9},
         ],
     },
 );
@@ -37,12 +43,3 @@ our @Author_Lists = (
 
 1;
 # ABSTRACT: A test CPAN lists
-
-=head1 DESCRIPTION
-
-
-=head1 SEE ALSO
-
-L<Acme::CPANLists>
-
-Other C<Acme::CPANLists::*> modules.
